@@ -6,9 +6,9 @@ Files : spk_files.tar.xz (tar file of .spk files)
 
 # Usage  
 
-Download the tar file and extract it into your local system. And use the files with path for plotting. \
-All these files can be easily accessed as in built palettes if the spk files are \
-copied into "ppl" directory in the ferret source code. 
+Download the tar file and extract it into your local system. And use the files with path for plotting. 
+
+All these files can be easily accessed as in built palettes if the spk files are copied into "ppl" directory in the ferret source code. 
 
 
 ! Example 1 \
