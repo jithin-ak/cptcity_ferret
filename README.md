@@ -36,10 +36,9 @@ fill/l=1/pal="/path/temperature_r.spk" sst
 use coads_climatology \
 fill/l=1/palette=temperature sst  
 
-# Contribute
-
-
 # Support 
-If you are having issues, please let us know. 
+Comments are welcomed and If you are having issues, please let us know. 
+
+
 
 
