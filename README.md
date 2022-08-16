@@ -2,6 +2,8 @@
 This contains ferret readable format of all the colour palettes given in  cptcity (http://soliton.vm.bytemark.co.uk/pub/cpt-city/) website. 
 All the files (more than 6000 palattes and its reverse order) in the website are coverted into ferret readable format. 
 
+Files : spk_files.tar.xz (tar file of .spk files)
+
 # Usage  
 
 ! Example 1 \
@@ -14,7 +16,7 @@ fill/l=1/pal=/path/balance_r.spk sst
 
 # Adding into ferret source directory 
 ! All these files can be easily accessed as in built palettes if the spk files are \
-copied into "ppl" directory in the ferret source code. \
+copied into "ppl" directory in the ferret source code. 
 
 ! Examples 3 
 use coads_climatolgy \
