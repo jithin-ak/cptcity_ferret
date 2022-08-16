@@ -4,7 +4,7 @@ All these ferret-readable colour palettes (.spk) are are prepared using the colo
 
 Files : spk_files.tar.xz (tar file of .spk files)
 
-# Instruction  
+## Instruction  
 
 Download the tar file and extract it into your local system.  Use the files with path for plotting. 
 
@@ -12,7 +12,7 @@ Download the tar file and extract it into your local system.  Use the files with
 All these files can be easily accessed as in built palettes if the spk files are copied into "ppl" directory in the ferret source code. Make sure that copying  these files will not replaces your original .spk files in the ppl directory.
 
 
-# Usage 
+## Usage 
 
 
 !       Example 1:- \
@@ -29,14 +29,14 @@ fill/l=1/palette="/path/temperature.spk" sst
 use coads_climatology \
 fill/l=1/pal="/path/temperature_r.spk" sst 
 
-# Add into the ferret source directoty 
+## Add into the ferret source directoty 
 ! if the spk files are copied into "ppl" directory in the ferret source code, we can use thse colours as regular in-built palettes without specifying the path and extension 
 
 !           Example 3:- \
 use coads_climatology \
 fill/l=1/palette=temperature sst  
 
-# Support 
+## Support 
 Comments are welcomed and If you are having issues, please let us know. 
 
 
