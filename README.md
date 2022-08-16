@@ -1,6 +1,6 @@
-# cptcity_ferret
-This contains more than 12000 color palette for FERRET (https://ferret.pmel.noaa.gov/Ferret/) 
-All these files are taken from  cpt-city (http://soliton.vm.bytemark.co.uk/pub/cpt-city/) website and uses the same colour palete name. 
+#  cptcity_ferret
+This is collection of more than 12000 color palette for FERRET (https://ferret.pmel.noaa.gov/Ferret/).  
+All these ferret-readable colour palettes (.spk) are are prepared using the colour maps provided in cpt-city (http://soliton.vm.bytemark.co.uk/pub/cpt-city/) website and uses the same colour palete name. 
 
 Files : spk_files.tar.xz (tar file of .spk files)
 
@@ -36,7 +36,10 @@ fill/l=1/pal=/path/balance_r.spk sst
 use coads_climatology \
 fill/l=1/palette=temp_19lev sst  
 
+# Contribute
 
 
+# Support 
+If you are having issues, please let us know. 
 
 
