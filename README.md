@@ -4,12 +4,15 @@ All the files (more than 6000 palattes and its reverse order) in the website are
 
 Files : spk_files.tar.xz (tar file of .spk files)
 
-# Usage  
+# Instruction  
 
-Download the tar file and extract it into your local system. And use the files with path for plotting. 
+Download the tar file and extract it into your local system.  Use the files with path for plotting. 
 
-All these files can be easily accessed as in built palettes if the spk files are copied into "ppl" directory in the ferret source code. 
 
+All these files can be easily accessed as in built palettes if the spk files are copied into "ppl" directory in the ferret source code. Make sure that copying  these files will not replaces your original .spk files in the ppl directory.
+
+
+# Usage 
 
 ! Example 1 \
 use coads_climatology \
