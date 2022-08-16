@@ -29,9 +29,10 @@ fill/l=1/palette=/path/temp_19lev.spk sst
 use coads_climatology \
 fill/l=1/pal=/path/balance_r.spk sst 
 
-!           Example 3:- \
-! if the spk files are copied into "ppl" directory in the ferret source code. 
+# Add into the ferret source directoty 
+! if the spk files are copied into "ppl" directory in the ferret source code, we can use thse colours as regular in-built palettes without specifying the path and extension 
 
+!           Example 3:- \
 use coads_climatology \
 fill/l=1/palette=temp_19lev sst  
 
