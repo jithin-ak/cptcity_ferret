@@ -14,18 +14,25 @@ All these files can be easily accessed as in built palettes if the spk files are
 
 # Usage 
 
-plot spatial map of SST using colour palatte "temp_19lev.spk" in http://soliton.vm.bytemark.co.uk/pub/cpt-city/views/totp-cpt.html
+
+!       Example 1:- \
+!Plot spatial map of SST using colour palatte "temp_19lev.spk" in http://soliton.vm.bytemark.co.uk/pub/cpt-city/views/totp-cpt.html 
+
 
 use coads_climatology \
 fill/l=1/palette=/path/temp_19lev.spk sst  
 
-! To use the reverse colour palatte, use the suffix "_r.spk"  to the flename \
 
+!           Example 2:-\
+! To use the reverse colour palatte, use the suffix "_r.spk"  to the flename 
+
+use coads_climatology \
 fill/l=1/pal=/path/balance_r.spk sst 
 
+!           Example 3:- \
 ! if the spk files are copied into "ppl" directory in the ferret source code. 
 
-use coads_climatolgy \
+use coads_climatology \
 fill/l=1/palette=temp_19lev sst  
 
 
