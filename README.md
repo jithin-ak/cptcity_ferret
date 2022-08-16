@@ -6,6 +6,11 @@ Files : spk_files.tar.xz (tar file of .spk files)
 
 # Usage  
 
+Download the tar file and extract it into your local system. And use the files with path for plotting. \
+All these files can be easily accessed as in built palettes if the spk files are \
+copied into "ppl" directory in the ferret source code. 
+
+
 ! Example 1 \
 use coads_climatology \
 fill/l=1/palette=/path/temp_19lev.spk sst  
@@ -14,9 +19,7 @@ fill/l=1/palette=/path/temp_19lev.spk sst
 ! For the reverse colour palatte, use "name_r.spk" \
 fill/l=1/pal=/path/balance_r.spk sst 
 
-# Adding into ferret source directory 
-! All these files can be easily accessed as in built palettes if the spk files are \
-copied into "ppl" directory in the ferret source code. 
+! if the spk files are copied into "ppl" directory in the ferret source code. 
 
 ! Examples 3 
 use coads_climatolgy \
