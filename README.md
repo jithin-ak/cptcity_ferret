@@ -20,21 +20,21 @@ All these files can be easily accessed as in built palettes if the spk files are
 
 
 use coads_climatology \
-fill/l=1/palette=/path/temp_19lev.spk sst  
+fill/l=1/palette=/path/temperature.spk sst  
 
 
 !           Example 2:-\
 ! To use the reverse colour palatte, use the suffix "_r.spk"  to the flename 
 
 use coads_climatology \
-fill/l=1/pal=/path/balance_r.spk sst 
+fill/l=1/pal=/path/temperature_r.spk sst 
 
 # Add into the ferret source directoty 
 ! if the spk files are copied into "ppl" directory in the ferret source code, we can use thse colours as regular in-built palettes without specifying the path and extension 
 
 !           Example 3:- \
 use coads_climatology \
-fill/l=1/palette=temp_19lev sst  
+fill/l=1/palette=temperature sst  
 
 # Contribute
 
