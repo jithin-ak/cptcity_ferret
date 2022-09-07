@@ -37,7 +37,5 @@ use coads_climatology \
 fill/l=1/palette=temperature sst  
 
 ## Support 
-Comments are welcomed, and If you are having issues, please let us know. 
-
-
+I did not checked all the cpt files individually. So please let me know if you found any problem with the colorbars. 
 
